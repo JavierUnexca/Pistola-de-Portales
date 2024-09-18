@@ -1,0 +1,54 @@
+#imagen-container-father{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+}
+#bigPortal{
+    position: absolute;
+    opacity: 0;
+}
+.container-son{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+button{
+    width: 100px;
+    height: 100px;
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    position: relative;
+    max-width: 100px; 
+}
+#name{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#portal{
+    position: absolute;
+    top: 340px;
+    left: 6px;
+    width: 100px;
+    height: 100px;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+#portal-efect{
+    position: absolute;
+    top: 348px;
+    left: 67px;
+    width: 15px;
+    height: 25px;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    -webkit-box-shadow: 3px 11px 76px 30px rgba(0,242,28,0.71);
+    -moz-box-shadow: 3px 11px 76px 30px rgba(0,242,28,0.71);
+    box-shadow: 3px 11px 76px 30px rgba(0,242,28,0.71);
+}
+#pistola{
+    margin-top: 334px;
+}
